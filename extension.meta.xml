@@ -9,10 +9,6 @@
         <type>Interface</type>
     </types>
 
-    <dependencies>
-        <dependency>jit_image_manipulation</dependency>
-    </dependencies>
-
     <repo type="github">https://github.com/fawx/client_logo</repo>
 
     <url type="discuss">http://symphony-cms.com/discuss/thread/58934/</url>
