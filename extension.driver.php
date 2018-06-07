@@ -41,7 +41,7 @@
 			if($pathlogo != "" and file_exists(DOCROOT.'/workspace/'.$pathlogo)) {
 				$extman = Symphony::ExtensionManager();
 				$status = $extman->fetchStatus(array('handle' => 'jit_image_manipulation'));
-				$fullPathLogo = (in_array(EXTENSION_ENABLED, $status)) ? URL.'/image/2/0/70/5/'.$pathlogo : URL.'/workspace/'.$pathlogo;
+				$fullPathLogo = (in_array(Extension::EXTENSION_ENABLED, $status)) ? URL.'/image/2/0/70/5/'.$pathlogo : URL.'/workspace/'.$pathlogo;
 
 				//controllo l'esistenza e le misure del logo
 				$page->addElementToHead(new XMLElement("style", "
