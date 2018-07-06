@@ -59,8 +59,8 @@
 						background-repeat: no-repeat;
 						background-position: center center;
 						background-size: contain;
-						width: 3rem;
-						height: 3rem;
+						width: 4rem;
+						height: 4rem;
 					}",
 					array(
 						"type" => "text/css",
